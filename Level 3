@@ -11,7 +11,7 @@ pinMode(greenled, OUTPUT);
 }
 void loop()
 {
-digitalWrite(greenled, HIGH); // turn on green LED 
+digitalWrite(greenled, LOW); // turn on green LED 
 
  while (Serial.available(3)) {
     delay(3);  
