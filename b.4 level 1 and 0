@@ -1,0 +1,25 @@
+Level 0: Sample Program
+
+1.	Implement and run the sample program defined in Appendix A..
+
+2.	Observe the number times the LED blinked.
+it blinked 4 times 
+3.	Explain why the LED only blinked 4 times.
+
+Because blink was at 4 
+Level 1: Variable Scope
+
+1.	Comment out (remove) line #24 with the code “int times = value;”
+
+2.	Observe the number times the LED blinked and explain how this is different from before.
+Added an extra blink 
+3.	Explain how line #24 with the code “int times = value;” changes the program.
+the line from aboive will now affect the blink since it now closes and opens.
+4.	There are two definitions for “int times”. Once on line #2 and once on line #24.
+a.	Explain where each definition applies in the code
+Line 2 is what the value that the int is.For line 24 it means that you are adding 1 to the blink
+
+b.	Explain if there is any of overlap
+
+
+No because it is enclosed and none of the prequiest for it to blink did not happen.
