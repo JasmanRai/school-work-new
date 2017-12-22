@@ -1,0 +1,89 @@
+Level 2: Lists & Logic
+
+Questions
+1 
+ 
+A True 
+
+B false 
+
+
+C false 
+
+
+
+D false 
+
+No there is not. It is either TRUE or False.You need both compentes.
+  
+
+
+C you are comparing two different. For boolean operators you are stay two are the same.For math operators you are doing muilpty operations.
+
+
+2 
+
+ A true
+    
+B true
+    
+ C true 
+  
+   D false 
+
+Ii  there are two different variables.For and you need both to be true for OR only one needs to be true.
+
+3     not (True or True)
+=> False   not (True or False)
+=> False   not (False or True)
+=> False   not (False or False)
+=> True  
+ 
+NOT will change an AND or OR to the opposite of what it is.True will be false.false will be true.
+
+
+4 AND needs both to be true if not it will be false.For OR it just needs one to be true
+
+
+5   4==4
+=> True   "Alsace-Lorraine" == "belongs to the french" 
+=> False   True and 2==1
+=> False  
+
+
+
+
+6  sports = [“basketball”, “tennis”, “baseball”]
+
+7 [2] 
+
+
+B  logic error
+
+
+8  print(colors[0])
+blue
+print(colors[1])
+pink
+print(colors[2])
+purple
+
+
+
+9   myname = "Alfred"
+if myname == "Alfred":
+        print("Hi Alfred!")
+Hi Alfred!
+
+
+
+
+10  if myname == "Ginger":
+        print("Hi Ginger!")
+    else:
+        print("Impostor!")
+ 
+
+
+
+11 
