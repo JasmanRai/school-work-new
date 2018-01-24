@@ -1,0 +1,42 @@
+Morse Code Challenge
+int greenLED = 12;   
+int redLED = 11; 
+
+void setup()                      
+{
+ pinMode(greenLED, OUTPUT);
+ pinMode(redLED, OUTPUT);
+}
+
+
+void loop()
+{
+  dash(1); dot(3); blank(1);               // Spells B
+  dot(2); blank(1);                             // Spells I
+  dash(1); dot(1); dash(1); blank(1); // Spells K
+  dot(1); dash(1); dot(1); blank(1);    // Spells R
+  dot(1); dash(1); blank(1);               // Spells A
+  dash(2); blank(1);                          // Spells M
+}
+ 
+
+int dash(int times) {
+    digitalWrite(greenLED, HIGH);
+    delay(750);  
+    digitalWrite(greenLED, LOW);   
+    delay(750);                       
+}
+
+int dot(int times) {
+    digitalWrite(redLED, HIGH);   
+    delay(250);                    
+    digitalWrite(redLED, LOW);   
+    delay(250);                   
+}
+
+int blank(int times) {
+    digitalWrite(greenLED, LOW);
+    digitalWrite(redLED, LOW);
+      delay(1000);
+}
+ 
